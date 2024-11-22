@@ -36,5 +36,5 @@ def start_server():
             # Clean up the connection
             client_socket.close()
 
-if __name__ == "_main_":
+if __name__ == "main":
     start_server()
